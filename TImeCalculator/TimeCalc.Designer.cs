@@ -86,9 +86,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微软雅黑", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(3, 9);
+            this.label1.Location = new System.Drawing.Point(4, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 30);
+            this.label1.Size = new System.Drawing.Size(127, 35);
             this.label1.TabIndex = 36;
             this.label1.Text = "计算时间";
             // 
@@ -96,9 +97,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微软雅黑", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(3, 291);
+            this.label2.Location = new System.Drawing.Point(4, 364);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 30);
+            this.label2.Size = new System.Drawing.Size(127, 35);
             this.label2.TabIndex = 37;
             this.label2.Text = "模式选择";
             // 
@@ -106,9 +108,10 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微软雅黑", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(5, 361);
+            this.label3.Location = new System.Drawing.Point(7, 451);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 30);
+            this.label3.Size = new System.Drawing.Size(127, 35);
             this.label3.TabIndex = 38;
             this.label3.Text = "计算结果";
             // 
@@ -117,7 +120,7 @@
             this.cb_h1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.cb_h1.FormattingEnabled = true;
             this.cb_h1.IntegralHeight = false;
-            this.cb_h1.ItemHeight = 21;
+            this.cb_h1.ItemHeight = 27;
             this.cb_h1.Items.AddRange(new object[] {
             "0",
             "1",
@@ -143,10 +146,11 @@
             "21",
             "22",
             "23"});
-            this.cb_h1.Location = new System.Drawing.Point(212, 53);
+            this.cb_h1.Location = new System.Drawing.Point(283, 66);
+            this.cb_h1.Margin = new System.Windows.Forms.Padding(4);
             this.cb_h1.MaxDropDownItems = 21;
             this.cb_h1.Name = "cb_h1";
-            this.cb_h1.Size = new System.Drawing.Size(98, 29);
+            this.cb_h1.Size = new System.Drawing.Size(129, 35);
             this.cb_h1.TabIndex = 0;
             this.cb_h1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -216,10 +220,11 @@
             "57",
             "58",
             "59"});
-            this.cb_min1.Location = new System.Drawing.Point(316, 53);
+            this.cb_min1.Location = new System.Drawing.Point(421, 66);
+            this.cb_min1.Margin = new System.Windows.Forms.Padding(4);
             this.cb_min1.MaxDropDownItems = 21;
             this.cb_min1.Name = "cb_min1";
-            this.cb_min1.Size = new System.Drawing.Size(98, 29);
+            this.cb_min1.Size = new System.Drawing.Size(129, 35);
             this.cb_min1.TabIndex = 1;
             this.cb_min1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -289,10 +294,11 @@
             "57",
             "58",
             "59"});
-            this.cb_s1.Location = new System.Drawing.Point(420, 53);
+            this.cb_s1.Location = new System.Drawing.Point(560, 66);
+            this.cb_s1.Margin = new System.Windows.Forms.Padding(4);
             this.cb_s1.MaxDropDownItems = 21;
             this.cb_s1.Name = "cb_s1";
-            this.cb_s1.Size = new System.Drawing.Size(98, 29);
+            this.cb_s1.Size = new System.Drawing.Size(129, 35);
             this.cb_s1.TabIndex = 2;
             this.cb_s1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -300,9 +306,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(12, 53);
+            this.label6.Location = new System.Drawing.Point(16, 66);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 21);
+            this.label6.Size = new System.Drawing.Size(72, 27);
             this.label6.TabIndex = 27;
             this.label6.Text = "加减数";
             // 
@@ -310,9 +317,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label7.Location = new System.Drawing.Point(238, 85);
+            this.label7.Location = new System.Drawing.Point(317, 106);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 24);
+            this.label7.Size = new System.Drawing.Size(57, 30);
             this.label7.TabIndex = 28;
             this.label7.Text = "小时";
             // 
@@ -320,9 +328,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label8.Location = new System.Drawing.Point(342, 85);
+            this.label8.Location = new System.Drawing.Point(456, 106);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(46, 24);
+            this.label8.Size = new System.Drawing.Size(57, 30);
             this.label8.TabIndex = 29;
             this.label8.Text = "分钟";
             // 
@@ -330,18 +339,20 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label9.Location = new System.Drawing.Point(455, 85);
+            this.label9.Location = new System.Drawing.Point(607, 106);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(28, 24);
+            this.label9.Size = new System.Drawing.Size(35, 30);
             this.label9.TabIndex = 30;
             this.label9.Text = "秒";
             // 
             // clear_up_h
             // 
             this.clear_up_h.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clear_up_h.Location = new System.Drawing.Point(212, 120);
+            this.clear_up_h.Location = new System.Drawing.Point(283, 150);
+            this.clear_up_h.Margin = new System.Windows.Forms.Padding(4);
             this.clear_up_h.Name = "clear_up_h";
-            this.clear_up_h.Size = new System.Drawing.Size(98, 33);
+            this.clear_up_h.Size = new System.Drawing.Size(131, 41);
             this.clear_up_h.TabIndex = 19;
             this.clear_up_h.Text = "清除小时";
             this.clear_up_h.UseVisualStyleBackColor = true;
@@ -350,9 +361,10 @@
             // clear_up_min
             // 
             this.clear_up_min.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clear_up_min.Location = new System.Drawing.Point(316, 120);
+            this.clear_up_min.Location = new System.Drawing.Point(421, 150);
+            this.clear_up_min.Margin = new System.Windows.Forms.Padding(4);
             this.clear_up_min.Name = "clear_up_min";
-            this.clear_up_min.Size = new System.Drawing.Size(98, 33);
+            this.clear_up_min.Size = new System.Drawing.Size(131, 41);
             this.clear_up_min.TabIndex = 20;
             this.clear_up_min.Text = "清除分钟";
             this.clear_up_min.UseVisualStyleBackColor = true;
@@ -361,9 +373,10 @@
             // clear_up_s
             // 
             this.clear_up_s.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clear_up_s.Location = new System.Drawing.Point(420, 120);
+            this.clear_up_s.Location = new System.Drawing.Point(560, 150);
+            this.clear_up_s.Margin = new System.Windows.Forms.Padding(4);
             this.clear_up_s.Name = "clear_up_s";
-            this.clear_up_s.Size = new System.Drawing.Size(98, 33);
+            this.clear_up_s.Size = new System.Drawing.Size(131, 41);
             this.clear_up_s.TabIndex = 21;
             this.clear_up_s.Text = "清除秒";
             this.clear_up_s.UseVisualStyleBackColor = true;
@@ -372,9 +385,10 @@
             // clearall_up
             // 
             this.clearall_up.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clearall_up.Location = new System.Drawing.Point(12, 120);
+            this.clearall_up.Location = new System.Drawing.Point(16, 150);
+            this.clearall_up.Margin = new System.Windows.Forms.Padding(4);
             this.clearall_up.Name = "clearall_up";
-            this.clearall_up.Size = new System.Drawing.Size(90, 33);
+            this.clearall_up.Size = new System.Drawing.Size(120, 41);
             this.clearall_up.TabIndex = 18;
             this.clearall_up.Text = "清空上半";
             this.clearall_up.UseVisualStyleBackColor = true;
@@ -384,9 +398,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(12, 186);
+            this.label4.Location = new System.Drawing.Point(16, 232);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 21);
+            this.label4.Size = new System.Drawing.Size(92, 27);
             this.label4.TabIndex = 31;
             this.label4.Text = "被加减数";
             // 
@@ -394,9 +409,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(238, 218);
+            this.label5.Location = new System.Drawing.Point(317, 272);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 24);
+            this.label5.Size = new System.Drawing.Size(57, 30);
             this.label5.TabIndex = 32;
             this.label5.Text = "小时";
             // 
@@ -404,9 +420,10 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label10.Location = new System.Drawing.Point(342, 218);
+            this.label10.Location = new System.Drawing.Point(456, 272);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(46, 24);
+            this.label10.Size = new System.Drawing.Size(57, 30);
             this.label10.TabIndex = 33;
             this.label10.Text = "分钟";
             // 
@@ -414,9 +431,10 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label11.Location = new System.Drawing.Point(455, 218);
+            this.label11.Location = new System.Drawing.Point(607, 272);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(28, 24);
+            this.label11.Size = new System.Drawing.Size(35, 30);
             this.label11.TabIndex = 34;
             this.label11.Text = "秒";
             // 
@@ -425,7 +443,7 @@
             this.cb_h2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.cb_h2.FormattingEnabled = true;
             this.cb_h2.IntegralHeight = false;
-            this.cb_h2.ItemHeight = 21;
+            this.cb_h2.ItemHeight = 27;
             this.cb_h2.Items.AddRange(new object[] {
             "0",
             "1",
@@ -450,10 +468,11 @@
             "21",
             "22",
             "23"});
-            this.cb_h2.Location = new System.Drawing.Point(212, 186);
+            this.cb_h2.Location = new System.Drawing.Point(283, 232);
+            this.cb_h2.Margin = new System.Windows.Forms.Padding(4);
             this.cb_h2.MaxDropDownItems = 21;
             this.cb_h2.Name = "cb_h2";
-            this.cb_h2.Size = new System.Drawing.Size(98, 29);
+            this.cb_h2.Size = new System.Drawing.Size(129, 35);
             this.cb_h2.TabIndex = 3;
             this.cb_h2.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -523,10 +542,11 @@
             "57",
             "58",
             "59"});
-            this.cb_min2.Location = new System.Drawing.Point(316, 186);
+            this.cb_min2.Location = new System.Drawing.Point(421, 232);
+            this.cb_min2.Margin = new System.Windows.Forms.Padding(4);
             this.cb_min2.MaxDropDownItems = 21;
             this.cb_min2.Name = "cb_min2";
-            this.cb_min2.Size = new System.Drawing.Size(98, 29);
+            this.cb_min2.Size = new System.Drawing.Size(129, 35);
             this.cb_min2.TabIndex = 4;
             this.cb_min2.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -596,19 +616,21 @@
             "57",
             "58",
             "59"});
-            this.cb_s2.Location = new System.Drawing.Point(420, 186);
+            this.cb_s2.Location = new System.Drawing.Point(560, 232);
+            this.cb_s2.Margin = new System.Windows.Forms.Padding(4);
             this.cb_s2.MaxDropDownItems = 21;
             this.cb_s2.Name = "cb_s2";
-            this.cb_s2.Size = new System.Drawing.Size(98, 29);
+            this.cb_s2.Size = new System.Drawing.Size(129, 35);
             this.cb_s2.TabIndex = 5;
             this.cb_s2.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // clear_down_h
             // 
             this.clear_down_h.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clear_down_h.Location = new System.Drawing.Point(212, 253);
+            this.clear_down_h.Location = new System.Drawing.Point(283, 316);
+            this.clear_down_h.Margin = new System.Windows.Forms.Padding(4);
             this.clear_down_h.Name = "clear_down_h";
-            this.clear_down_h.Size = new System.Drawing.Size(98, 33);
+            this.clear_down_h.Size = new System.Drawing.Size(131, 41);
             this.clear_down_h.TabIndex = 23;
             this.clear_down_h.Text = "清除小时";
             this.clear_down_h.UseVisualStyleBackColor = true;
@@ -617,9 +639,10 @@
             // clearall_down
             // 
             this.clearall_down.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clearall_down.Location = new System.Drawing.Point(12, 253);
+            this.clearall_down.Location = new System.Drawing.Point(16, 316);
+            this.clearall_down.Margin = new System.Windows.Forms.Padding(4);
             this.clearall_down.Name = "clearall_down";
-            this.clearall_down.Size = new System.Drawing.Size(90, 33);
+            this.clearall_down.Size = new System.Drawing.Size(120, 41);
             this.clearall_down.TabIndex = 22;
             this.clearall_down.Text = "清空下半";
             this.clearall_down.UseVisualStyleBackColor = true;
@@ -628,9 +651,10 @@
             // clear_down_min
             // 
             this.clear_down_min.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clear_down_min.Location = new System.Drawing.Point(316, 253);
+            this.clear_down_min.Location = new System.Drawing.Point(421, 316);
+            this.clear_down_min.Margin = new System.Windows.Forms.Padding(4);
             this.clear_down_min.Name = "clear_down_min";
-            this.clear_down_min.Size = new System.Drawing.Size(98, 33);
+            this.clear_down_min.Size = new System.Drawing.Size(131, 41);
             this.clear_down_min.TabIndex = 24;
             this.clear_down_min.Text = "清除分钟";
             this.clear_down_min.UseVisualStyleBackColor = true;
@@ -639,9 +663,10 @@
             // clear_down_s
             // 
             this.clear_down_s.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clear_down_s.Location = new System.Drawing.Point(420, 253);
+            this.clear_down_s.Location = new System.Drawing.Point(560, 316);
+            this.clear_down_s.Margin = new System.Windows.Forms.Padding(4);
             this.clear_down_s.Name = "clear_down_s";
-            this.clear_down_s.Size = new System.Drawing.Size(98, 33);
+            this.clear_down_s.Size = new System.Drawing.Size(131, 41);
             this.clear_down_s.TabIndex = 25;
             this.clear_down_s.Text = "清除秒";
             this.clear_down_s.UseVisualStyleBackColor = true;
@@ -650,9 +675,10 @@
             // btn_clearAll
             // 
             this.btn_clearAll.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btn_clearAll.Location = new System.Drawing.Point(218, 361);
+            this.btn_clearAll.Location = new System.Drawing.Point(291, 451);
+            this.btn_clearAll.Margin = new System.Windows.Forms.Padding(4);
             this.btn_clearAll.Name = "btn_clearAll";
-            this.btn_clearAll.Size = new System.Drawing.Size(90, 33);
+            this.btn_clearAll.Size = new System.Drawing.Size(120, 41);
             this.btn_clearAll.TabIndex = 17;
             this.btn_clearAll.Text = "清空全部";
             this.btn_clearAll.UseVisualStyleBackColor = true;
@@ -661,9 +687,10 @@
             // fill
             // 
             this.fill.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.fill.Location = new System.Drawing.Point(12, 218);
+            this.fill.Location = new System.Drawing.Point(16, 272);
+            this.fill.Margin = new System.Windows.Forms.Padding(4);
             this.fill.Name = "fill";
-            this.fill.Size = new System.Drawing.Size(90, 33);
+            this.fill.Size = new System.Drawing.Size(120, 41);
             this.fill.TabIndex = 26;
             this.fill.Text = "填充至↑";
             this.fill.UseVisualStyleBackColor = true;
@@ -674,9 +701,10 @@
             this.add.AutoSize = true;
             this.add.Checked = true;
             this.add.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.add.Location = new System.Drawing.Point(130, 292);
+            this.add.Location = new System.Drawing.Point(173, 365);
+            this.add.Margin = new System.Windows.Forms.Padding(4);
             this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(68, 29);
+            this.add.Size = new System.Drawing.Size(83, 35);
             this.add.TabIndex = 14;
             this.add.TabStop = true;
             this.add.Text = "加法";
@@ -686,9 +714,10 @@
             // 
             this.sub.AutoSize = true;
             this.sub.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.sub.Location = new System.Drawing.Point(276, 292);
+            this.sub.Location = new System.Drawing.Point(368, 365);
+            this.sub.Margin = new System.Windows.Forms.Padding(4);
             this.sub.Name = "sub";
-            this.sub.Size = new System.Drawing.Size(68, 29);
+            this.sub.Size = new System.Drawing.Size(83, 35);
             this.sub.TabIndex = 15;
             this.sub.Text = "减法";
             this.sub.UseVisualStyleBackColor = true;
@@ -697,9 +726,10 @@
             // 
             this.atf.AutoSize = true;
             this.atf.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.atf.Location = new System.Drawing.Point(403, 327);
+            this.atf.Location = new System.Drawing.Point(537, 409);
+            this.atf.Margin = new System.Windows.Forms.Padding(4);
             this.atf.Name = "atf";
-            this.atf.Size = new System.Drawing.Size(107, 29);
+            this.atf.Size = new System.Drawing.Size(132, 35);
             this.atf.TabIndex = 16;
             this.atf.Text = "自动填充";
             this.atf.UseVisualStyleBackColor = false;
@@ -707,9 +737,10 @@
             // copy_h
             // 
             this.copy_h.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.copy_h.Location = new System.Drawing.Point(139, 438);
+            this.copy_h.Location = new System.Drawing.Point(185, 548);
+            this.copy_h.Margin = new System.Windows.Forms.Padding(4);
             this.copy_h.Name = "copy_h";
-            this.copy_h.Size = new System.Drawing.Size(125, 33);
+            this.copy_h.Size = new System.Drawing.Size(167, 41);
             this.copy_h.TabIndex = 8;
             this.copy_h.Text = "复制小时";
             this.copy_h.UseVisualStyleBackColor = true;
@@ -717,9 +748,10 @@
             // copy_min
             // 
             this.copy_min.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.copy_min.Location = new System.Drawing.Point(266, 438);
+            this.copy_min.Location = new System.Drawing.Point(355, 548);
+            this.copy_min.Margin = new System.Windows.Forms.Padding(4);
             this.copy_min.Name = "copy_min";
-            this.copy_min.Size = new System.Drawing.Size(125, 33);
+            this.copy_min.Size = new System.Drawing.Size(167, 41);
             this.copy_min.TabIndex = 9;
             this.copy_min.Text = "复制分钟";
             this.copy_min.UseVisualStyleBackColor = true;
@@ -727,9 +759,10 @@
             // copy_s
             // 
             this.copy_s.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.copy_s.Location = new System.Drawing.Point(393, 438);
+            this.copy_s.Location = new System.Drawing.Point(524, 548);
+            this.copy_s.Margin = new System.Windows.Forms.Padding(4);
             this.copy_s.Name = "copy_s";
-            this.copy_s.Size = new System.Drawing.Size(125, 33);
+            this.copy_s.Size = new System.Drawing.Size(167, 41);
             this.copy_s.TabIndex = 10;
             this.copy_s.Text = "复制秒";
             this.copy_s.UseVisualStyleBackColor = true;
@@ -737,9 +770,10 @@
             // copyall
             // 
             this.copyall.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.copyall.Location = new System.Drawing.Point(311, 361);
+            this.copyall.Location = new System.Drawing.Point(415, 451);
+            this.copyall.Margin = new System.Windows.Forms.Padding(4);
             this.copyall.Name = "copyall";
-            this.copyall.Size = new System.Drawing.Size(126, 33);
+            this.copyall.Size = new System.Drawing.Size(168, 41);
             this.copyall.TabIndex = 7;
             this.copyall.Text = "复制全部结果";
             this.copyall.UseVisualStyleBackColor = true;
@@ -747,9 +781,10 @@
             // calc
             // 
             this.calc.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.calc.Location = new System.Drawing.Point(440, 361);
+            this.calc.Location = new System.Drawing.Point(587, 451);
+            this.calc.Margin = new System.Windows.Forms.Padding(4);
             this.calc.Name = "calc";
-            this.calc.Size = new System.Drawing.Size(80, 33);
+            this.calc.Size = new System.Drawing.Size(107, 41);
             this.calc.TabIndex = 6;
             this.calc.Text = "计算";
             this.calc.UseVisualStyleBackColor = true;
@@ -759,10 +794,11 @@
             this.result_h.BackColor = System.Drawing.Color.White;
             this.result_h.Cursor = System.Windows.Forms.Cursors.Default;
             this.result_h.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.result_h.Location = new System.Drawing.Point(139, 400);
+            this.result_h.Location = new System.Drawing.Point(185, 500);
+            this.result_h.Margin = new System.Windows.Forms.Padding(4);
             this.result_h.Name = "result_h";
             this.result_h.ReadOnly = true;
-            this.result_h.Size = new System.Drawing.Size(125, 32);
+            this.result_h.Size = new System.Drawing.Size(165, 38);
             this.result_h.TabIndex = 11;
             this.result_h.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -771,10 +807,11 @@
             this.result_min.BackColor = System.Drawing.Color.White;
             this.result_min.Cursor = System.Windows.Forms.Cursors.Default;
             this.result_min.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.result_min.Location = new System.Drawing.Point(266, 400);
+            this.result_min.Location = new System.Drawing.Point(355, 500);
+            this.result_min.Margin = new System.Windows.Forms.Padding(4);
             this.result_min.Name = "result_min";
             this.result_min.ReadOnly = true;
-            this.result_min.Size = new System.Drawing.Size(125, 32);
+            this.result_min.Size = new System.Drawing.Size(165, 38);
             this.result_min.TabIndex = 12;
             // 
             // result_s
@@ -782,10 +819,11 @@
             this.result_s.BackColor = System.Drawing.Color.White;
             this.result_s.Cursor = System.Windows.Forms.Cursors.Default;
             this.result_s.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.result_s.Location = new System.Drawing.Point(393, 400);
+            this.result_s.Location = new System.Drawing.Point(524, 500);
+            this.result_s.Margin = new System.Windows.Forms.Padding(4);
             this.result_s.Name = "result_s";
             this.result_s.ReadOnly = true;
-            this.result_s.Size = new System.Drawing.Size(125, 32);
+            this.result_s.Size = new System.Drawing.Size(165, 38);
             this.result_s.TabIndex = 13;
             // 
             // log
@@ -793,9 +831,10 @@
             this.log.Cursor = System.Windows.Forms.Cursors.Default;
             this.log.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.log.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.log.Location = new System.Drawing.Point(83, 477);
+            this.log.Location = new System.Drawing.Point(111, 596);
+            this.log.Margin = new System.Windows.Forms.Padding(4);
             this.log.Name = "log";
-            this.log.Size = new System.Drawing.Size(437, 29);
+            this.log.Size = new System.Drawing.Size(581, 34);
             this.log.TabIndex = 40;
             this.log.TabStop = false;
             this.log.TextChanged += new System.EventHandler(this.log_TextChanged);
@@ -804,18 +843,20 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label12.Location = new System.Drawing.Point(3, 481);
+            this.label12.Location = new System.Drawing.Point(4, 601);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(74, 21);
+            this.label12.Size = new System.Drawing.Size(92, 27);
             this.label12.TabIndex = 39;
             this.label12.Text = "提示信息";
             // 
             // about
             // 
             this.about.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.about.Location = new System.Drawing.Point(447, 8);
+            this.about.Location = new System.Drawing.Point(596, 10);
+            this.about.Margin = new System.Windows.Forms.Padding(4);
             this.about.Name = "about";
-            this.about.Size = new System.Drawing.Size(75, 33);
+            this.about.Size = new System.Drawing.Size(100, 41);
             this.about.TabIndex = 35;
             this.about.Text = "关于";
             this.about.UseVisualStyleBackColor = true;
@@ -825,9 +866,10 @@
             // 
             this.intv.AutoSize = true;
             this.intv.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.intv.Location = new System.Drawing.Point(403, 292);
+            this.intv.Location = new System.Drawing.Point(537, 365);
+            this.intv.Margin = new System.Windows.Forms.Padding(4);
             this.intv.Name = "intv";
-            this.intv.Size = new System.Drawing.Size(106, 29);
+            this.intv.Size = new System.Drawing.Size(131, 35);
             this.intv.TabIndex = 14;
             this.intv.Text = "间隔计算";
             this.intv.UseVisualStyleBackColor = true;
@@ -837,7 +879,7 @@
             this.cb_d1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.cb_d1.FormattingEnabled = true;
             this.cb_d1.IntegralHeight = false;
-            this.cb_d1.ItemHeight = 21;
+            this.cb_d1.ItemHeight = 27;
             this.cb_d1.Items.AddRange(new object[] {
             "0",
             "1",
@@ -1205,10 +1247,11 @@
             "363",
             "364",
             "365"});
-            this.cb_d1.Location = new System.Drawing.Point(108, 53);
+            this.cb_d1.Location = new System.Drawing.Point(144, 66);
+            this.cb_d1.Margin = new System.Windows.Forms.Padding(4);
             this.cb_d1.MaxDropDownItems = 21;
             this.cb_d1.Name = "cb_d1";
-            this.cb_d1.Size = new System.Drawing.Size(98, 29);
+            this.cb_d1.Size = new System.Drawing.Size(129, 35);
             this.cb_d1.TabIndex = 0;
             this.cb_d1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -1217,7 +1260,7 @@
             this.cb_d2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.cb_d2.FormattingEnabled = true;
             this.cb_d2.IntegralHeight = false;
-            this.cb_d2.ItemHeight = 21;
+            this.cb_d2.ItemHeight = 27;
             this.cb_d2.Items.AddRange(new object[] {
             "0",
             "1",
@@ -1585,10 +1628,11 @@
             "363",
             "364",
             "365"});
-            this.cb_d2.Location = new System.Drawing.Point(108, 186);
+            this.cb_d2.Location = new System.Drawing.Point(144, 232);
+            this.cb_d2.Margin = new System.Windows.Forms.Padding(4);
             this.cb_d2.MaxDropDownItems = 21;
             this.cb_d2.Name = "cb_d2";
-            this.cb_d2.Size = new System.Drawing.Size(98, 29);
+            this.cb_d2.Size = new System.Drawing.Size(129, 35);
             this.cb_d2.TabIndex = 3;
             this.cb_d2.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -1596,9 +1640,10 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label13.Location = new System.Drawing.Point(143, 85);
+            this.label13.Location = new System.Drawing.Point(191, 106);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(28, 24);
+            this.label13.Size = new System.Drawing.Size(35, 30);
             this.label13.TabIndex = 28;
             this.label13.Text = "天";
             // 
@@ -1606,9 +1651,10 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label14.Location = new System.Drawing.Point(143, 218);
+            this.label14.Location = new System.Drawing.Point(191, 272);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(28, 24);
+            this.label14.Size = new System.Drawing.Size(35, 30);
             this.label14.TabIndex = 32;
             this.label14.Text = "天";
             // 
@@ -1617,19 +1663,21 @@
             this.result_d.BackColor = System.Drawing.Color.White;
             this.result_d.Cursor = System.Windows.Forms.Cursors.Default;
             this.result_d.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.result_d.Location = new System.Drawing.Point(12, 400);
+            this.result_d.Location = new System.Drawing.Point(16, 500);
+            this.result_d.Margin = new System.Windows.Forms.Padding(4);
             this.result_d.Name = "result_d";
             this.result_d.ReadOnly = true;
-            this.result_d.Size = new System.Drawing.Size(125, 32);
+            this.result_d.Size = new System.Drawing.Size(165, 38);
             this.result_d.TabIndex = 11;
             this.result_d.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // copy_d
             // 
             this.copy_d.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.copy_d.Location = new System.Drawing.Point(12, 438);
+            this.copy_d.Location = new System.Drawing.Point(16, 548);
+            this.copy_d.Margin = new System.Windows.Forms.Padding(4);
             this.copy_d.Name = "copy_d";
-            this.copy_d.Size = new System.Drawing.Size(125, 33);
+            this.copy_d.Size = new System.Drawing.Size(167, 41);
             this.copy_d.TabIndex = 8;
             this.copy_d.Text = "复制天";
             this.copy_d.UseVisualStyleBackColor = true;
@@ -1638,9 +1686,10 @@
             // clear_down_d
             // 
             this.clear_down_d.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clear_down_d.Location = new System.Drawing.Point(108, 253);
+            this.clear_down_d.Location = new System.Drawing.Point(144, 316);
+            this.clear_down_d.Margin = new System.Windows.Forms.Padding(4);
             this.clear_down_d.Name = "clear_down_d";
-            this.clear_down_d.Size = new System.Drawing.Size(98, 33);
+            this.clear_down_d.Size = new System.Drawing.Size(131, 41);
             this.clear_down_d.TabIndex = 23;
             this.clear_down_d.Text = "清除天";
             this.clear_down_d.UseVisualStyleBackColor = true;
@@ -1649,9 +1698,10 @@
             // clear_up_d
             // 
             this.clear_up_d.Font = new System.Drawing.Font("微软雅黑", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clear_up_d.Location = new System.Drawing.Point(108, 120);
+            this.clear_up_d.Location = new System.Drawing.Point(144, 150);
+            this.clear_up_d.Margin = new System.Windows.Forms.Padding(4);
             this.clear_up_d.Name = "clear_up_d";
-            this.clear_up_d.Size = new System.Drawing.Size(98, 33);
+            this.clear_up_d.Size = new System.Drawing.Size(131, 41);
             this.clear_up_d.TabIndex = 19;
             this.clear_up_d.Text = "清除天";
             this.clear_up_d.UseVisualStyleBackColor = true;
@@ -1661,18 +1711,19 @@
             // 
             this.colonForm.AutoSize = true;
             this.colonForm.Font = new System.Drawing.Font("微软雅黑", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.colonForm.Location = new System.Drawing.Point(130, 327);
+            this.colonForm.Location = new System.Drawing.Point(173, 409);
+            this.colonForm.Margin = new System.Windows.Forms.Padding(4);
             this.colonForm.Name = "colonForm";
-            this.colonForm.Size = new System.Drawing.Size(240, 29);
+            this.colonForm.Size = new System.Drawing.Size(300, 35);
             this.colonForm.TabIndex = 16;
             this.colonForm.Text = "计算结果复制为冒号形式";
             this.colonForm.UseVisualStyleBackColor = false;
             // 
             // TimeCalc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(531, 515);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(707, 644);
             this.Controls.Add(this.log);
             this.Controls.Add(this.result_s);
             this.Controls.Add(this.result_min);
@@ -1725,9 +1776,8 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(547, 554);
-            this.MinimumSize = new System.Drawing.Size(547, 554);
             this.Name = "TimeCalc";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "时间计算器";

@@ -40,12 +40,12 @@
             // 
             this.txt.BackColor = System.Drawing.SystemColors.Control;
             this.txt.Font = new System.Drawing.Font("微软雅黑", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txt.Location = new System.Drawing.Point(12, 98);
+            this.txt.Location = new System.Drawing.Point(13, 98);
             this.txt.Multiline = true;
             this.txt.Name = "txt";
             this.txt.ReadOnly = true;
             this.txt.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txt.Size = new System.Drawing.Size(409, 348);
+            this.txt.Size = new System.Drawing.Size(436, 348);
             this.txt.TabIndex = 4;
             this.txt.TabStop = false;
             this.txt.Text = resources.GetString("txt.Text");
@@ -55,7 +55,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(8, 44);
+            this.label1.Location = new System.Drawing.Point(9, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(247, 21);
             this.label1.TabIndex = 2;
@@ -75,9 +75,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(307, 452);
+            this.button1.Location = new System.Drawing.Point(327, 452);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 31);
+            this.button1.Size = new System.Drawing.Size(122, 31);
             this.button1.TabIndex = 0;
             this.button1.Text = "关闭";
             this.button1.UseVisualStyleBackColor = true;
@@ -87,17 +87,17 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(8, 68);
+            this.label3.Location = new System.Drawing.Point(9, 68);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 21);
             this.label3.TabIndex = 2;
-            this.label3.Text = "版本：1.2.0";
+            this.label3.Text = "版本：1.2.1";
             // 
             // HelpForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(433, 492);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(462, 501);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
@@ -105,9 +105,7 @@
             this.Controls.Add(this.txt);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(449, 531);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(449, 531);
             this.Name = "HelpForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "关于";

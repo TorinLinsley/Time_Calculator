@@ -146,7 +146,9 @@
 单选按钮-减法=[-]* 或 [-]
 单选按钮-间隔计算=[PageDown]&amp; 或 [i]
 填充至↑=[F]
-清空全部=[C]（要连着计算结果清空可按 [Shift]+[C]）</value>
+清空全部=[C]（要连着计算结果清空可按 [Shift]+[C]）
+
+按住Shift再点击[清空全部]按钮可以连着结算结果也清空</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
